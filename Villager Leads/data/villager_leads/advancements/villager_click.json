@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:lead"
+          ]
+        },
+        "entity": {
+          "type": "#villager_leads:villager"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "villager_leads:ray_casting"
+  }
+}
